@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="rss">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="channel"/>
+      </xs:sequence>
+      <xs:attribute name="version" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="channel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="title"/>
+        <xs:element ref="link"/>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="item"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title" type="xs:NCName"/>
+  <xs:element name="link" type="xs:anyURI"/>
+  <xs:element name="item">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Availability"/>
+        <xs:element ref="Category"/>
+        <xs:element ref="Currency"/>
+        <xs:element ref="CurrentPrice"/>
+        <xs:element ref="Description"/>
+        <xs:element ref="Image"/>
+        <xs:element ref="ProductID"/>
+        <xs:element ref="RetailPrice"/>
+        <xs:element ref="Title"/>
+        <xs:element ref="URL"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Availability" type="xs:integer"/>
+  <xs:element name="Category" type="xs:string"/>
+  <xs:element name="Currency" type="xs:NCName"/>
+  <xs:element name="CurrentPrice" type="xs:integer"/>
+  <xs:element name="Description" type="xs:string"/>
+  <xs:element name="Image" type="xs:anyURI"/>
+  <xs:element name="ProductID" type="xs:NCName"/>
+  <xs:element name="RetailPrice" type="xs:integer"/>
+  <xs:element name="Title" type="xs:string"/>
+  <xs:element name="URL" type="xs:anyURI"/>
+</xs:schema>
