@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+    <channel>
+        <title>衣芙</title>
+        <link>https://www.efshop.com.tw/</link>
+        <item>
+            <Availability>1</Availability>
+            <Category>UV 吸排 > UV 吸排</Category>
+            <Currency>TWD</Currency>
+            <CurrentPrice>168</CurrentPrice>
+            <Description>抗UV太陽眼鏡</Description>
+            <Image>https://cdn.efshop.com.tw/files/1/products/21960_400_E9BB91.jpg</Image>
+            <ProductID>b14s001-8010</ProductID>
+            <RetailPrice>168</RetailPrice>
+            <Title>抗UV太陽眼鏡</Title>
+            <URL>https://www.efshop.com.tw/product/21964?recommend=AIQUA</URL>
+        </item>
+        <item>
+            <Availability>1</Availability>
+            <Category></Category>
+            <Currency>TWD</Currency>
+            <CurrentPrice>9999</CurrentPrice>
+            <Description>❤貼心會員問卷獨享❤送  百搭短襪 乙雙 (隨機出貨，送完為止) 滿100元送優惠折扣贈品</Description>
+            <Image></Image>
+            <ProductID>febak2016</ProductID>
+            <RetailPrice>9999</RetailPrice>
+            <Title>❤貼心會員問卷獨享❤送  百搭短襪 乙雙 (隨機出貨，送完為止) 滿100元送優惠折扣贈品</Title>
+            <URL>https://www.efshop.com.tw/product/32781?recommend=AIQUA</URL>
+        </item>
+    </channel>
+</rss>
